@@ -1,17 +1,17 @@
 //
-//  NSMutableArray+gjstack.h
-//  gjstack_iOS
+//  NSMutableArray+Stack.h
 //
-//  Created by Greg Jaskiewicz on 31/10/2012.
-//  Copyright (c) 2012 Greg Jaskiewicz. All rights reserved.
+//  Originally created by Greg Jaskiewicz on 31/10/2012.
+//  Modified by Andreas Ganske
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableArray (gjstack)
+@interface NSMutableArray (Stack)
 
-- (void)push:(id)object;
-- (id)pop;
+-(void)push:(id)object;
+-(id)peek;
+-(id)pop;
 
 @end
 
