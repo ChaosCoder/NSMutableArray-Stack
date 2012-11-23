@@ -1,4 +1,4 @@
-NSMutableArrayStack
-===================
+NSMutableArray+Stack
+====================
 
-Simple category on NSMutableArray adding pop/push methods
+Simple category on NSMutableArray adding push, peek and pop methods
